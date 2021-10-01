@@ -7,7 +7,7 @@ class SongSerializer(serializers.ModelSerializer):
         model = Song
         fields = [
             'id', 
-            'title'
+            'title',
             'artist', 
             'album',
             'release_date',
