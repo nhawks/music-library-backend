@@ -3,7 +3,7 @@ from .serializers import SongSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-
+from django.http import Http404
 
 # Create your views here.
 class SongList(APIView):
@@ -24,3 +24,16 @@ class SongList(APIView):
             serializer.errors, 
             status=status.HTTP_400_BAD_REQUEST,
         )
+
+class SongDetail(APIView):
+    def get_object(self, pk):
+            try:
+                return Song.objects.get(pk=pk)
+            except Song.DoesNotExist:
+                raise Http404
+    
+    def get(self, request, pk):
+        song = self.get_object(pk)
+        serializer = SongSerializer(song)
+        return Response(serializer.data)
+        
