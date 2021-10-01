@@ -11,5 +11,6 @@ class SongSerializer(serializers.ModelSerializer):
             'artist', 
             'album',
             'release_date',
+            'genre',
         ]
         
