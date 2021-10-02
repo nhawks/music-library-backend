@@ -1,5 +1,5 @@
 from django.db import models
-from django.db.models.aggregates import Max
+
 
 # Create your models here.
 class Song(models.Model):
@@ -8,3 +8,4 @@ class Song(models.Model):
     album = models.CharField(max_length=50)
     release_date = models.DateField()
     genre = models.CharField(max_length=50)
+    likes = models.IntegerField(default=0, null=True, blank=True)
