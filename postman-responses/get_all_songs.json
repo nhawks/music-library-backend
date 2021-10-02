@@ -1,1 +1,83 @@
-[{"id":1,"title":"24","artist":"Kanye West","album":"Donda","release_date":"2021-08-29","genre":"Rap"},{"id":2,"title":"Heartless","artist":"Kanye West","album":"808s & Heartbreak","release_date":"2008-11-24","genre":"Rap"},{"id":3,"title":"New House","artist":"Toro Y Moi","album":"Outer Peace","release_date":"2019-01-18","genre":"Alternative"},{"id":4,"title":"WIWWTW","artist":"Toro Y Moi","album":"Boo Boo","release_date":"2017-07-07","genre":"Alternative"},{"id":5,"title":"Soundtrack 2 My Life","artist":"Kid Cudi","album":"Man On The Moon: The End Of Day","release_date":"2009-09-15","genre":"Rap"},{"id":6,"title":"Sept. 16","artist":"Kid Cudi","album":"Man On The Moon III: The Chosen","release_date":"2021-12-11","genre":"Rap"},{"id":7,"title":"Bullet Proof Soul","artist":"Sade","album":"Love Deluxe","release_date":"1992-10-26","genre":"R&B"},{"id":8,"title":"Hello World","artist":"Django","album":"Python","release_date":"2021-10-01","genre":"Rock"}]
+[
+    {
+        "id": 1,
+        "title": "Come to Life",
+        "artist": "Kanye West",
+        "album": "Donda",
+        "release_date": "2021-08-29",
+        "genre": "Rap",
+        "likes": 7
+    },
+    {
+        "id": 2,
+        "title": "Heartless",
+        "artist": "Kanye West",
+        "album": "808s & Heartbreak",
+        "release_date": "2008-11-24",
+        "genre": "Rap",
+        "likes": 3
+    },
+    {
+        "id": 3,
+        "title": "New House",
+        "artist": "Toro Y Moi",
+        "album": "Outer Peace",
+        "release_date": "2019-01-18",
+        "genre": "Alternative",
+        "likes": 4
+    },
+    {
+        "id": 4,
+        "title": "WIWWTW",
+        "artist": "Toro Y Moi",
+        "album": "Boo Boo",
+        "release_date": "2017-07-07",
+        "genre": "Alternative",
+        "likes": 3
+    },
+    {
+        "id": 5,
+        "title": "Soundtrack 2 My Life",
+        "artist": "Kid Cudi",
+        "album": "Man On The Moon: The End Of Day",
+        "release_date": "2009-09-15",
+        "genre": "Rap",
+        "likes": 2
+    },
+    {
+        "id": 6,
+        "title": "Sept. 16",
+        "artist": "Kid Cudi",
+        "album": "Man On The Moon III: The Chosen",
+        "release_date": "2021-12-11",
+        "genre": "Rap",
+        "likes": 6
+    },
+    {
+        "id": 7,
+        "title": "Bullet Proof Soul",
+        "artist": "Sade",
+        "album": "Love Deluxe",
+        "release_date": "1992-10-26",
+        "genre": "R&B",
+        "likes": 2
+    },
+    {
+        "id": 8,
+        "title": "Hello World",
+        "artist": "Django",
+        "album": "Python",
+        "release_date": "2021-10-01",
+        "genre": "Rock",
+        "likes": 0
+    },
+    {
+        "id": 19,
+        "title": "Friday",
+        "artist": "Rebecca Black",
+        "album": "N/A",
+        "release_date": "2011-02-10",
+        "genre": "Pop",
+        "likes": -10
+    }
+]

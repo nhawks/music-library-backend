@@ -1,1 +1,9 @@
-{"id":2,"title":"Heartless","artist":"Kanye West","album":"808s & Heartbreak","release_date":"2008-11-24","genre":"Rap"}
+{
+    "id": 1,
+    "title": "Come to Life",
+    "artist": "Kanye West",
+    "album": "Donda",
+    "release_date": "2021-08-29",
+    "genre": "Rap",
+    "likes": 7
+}

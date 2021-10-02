@@ -1,1 +1,7 @@
-{"id":15,"title":"Hello World","artist":"Django","album":"Python","release_date":"2021-10-01","genre":"Rock"}
+{
+    "title":"Hello World",
+    "artist":"Django",
+    "album":"Python",
+    "release_date":"2021-10-01",
+    "genre":"Rock"
+}

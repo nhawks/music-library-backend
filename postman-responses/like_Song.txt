@@ -1,0 +1,2 @@
+Like Song - http://127.0.0.1:8000/music/<ID>/thumbs_up | song.likes += 1
+Dislike Song - http://127.0.0.1:8000/music/<ID>/thumbs_up | song.likes -= 1

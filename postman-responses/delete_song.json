@@ -1,1 +1,9 @@
-{"id":null,"title":"Hello World 2","artist":"Django","album":"Python","release_date":"2021-10-01","genre":"Rock"}
+{
+    "id": null,
+    "title": "Friday",
+    "artist": "Rebecca Black",
+    "album": "N/A",
+    "release_date": "2011-02-10",
+    "genre": "Pop",
+    "likes": -10
+}
