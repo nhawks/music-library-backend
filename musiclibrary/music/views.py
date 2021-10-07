@@ -78,7 +78,7 @@ class SongLikes(APIView):
         if request.path.endswith("up"):
             song.likes += 1
         elif request.path.endswith("down"):
-            song.likes -= 1
+            song.dislikes -= 1
         serializer = SongSerializer(song, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()

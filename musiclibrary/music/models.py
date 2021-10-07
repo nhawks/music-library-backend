@@ -9,3 +9,4 @@ class Song(models.Model):
     release_date = models.DateField()
     genre = models.CharField(max_length=50)
     likes = models.IntegerField(default=0, null=True, blank=True)
+    dislikes = models.IntegerField(default=0, null=True, blank=True)
